@@ -28,8 +28,8 @@ public class MyBroadcastReceiver extends BroadcastReceiver {
 
         NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(context)
                 .setSmallIcon(R.drawable.ic_touch_app_black_24dp)
-                .setContentTitle("My Notification")
-                .setContentText("Hello, World!");
+                .setContentTitle("Art Therapy")
+                .setContentText("Would you like to draw something??");
 
         Intent resultIntent = new Intent(context,MainActivity.class);
 
